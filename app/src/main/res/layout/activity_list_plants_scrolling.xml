@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".listBirdsScrollingActivity">
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="104dp"
+        android:layout_height="104dp"
+        android:background="#00FFFFFF"
+        android:text="←"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="646dp"
+        android:layout_marginTop="105dp"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/plant_content_scrolling"
+            android:layout_width="match_parent"
+            android:layout_height="607dp" />
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
