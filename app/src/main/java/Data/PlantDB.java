@@ -3,6 +3,7 @@ package Data;
 import java.io.IOException;
 
 public class PlantDB extends DB {
+    /*
     public PlantDB(String filename) {
         super(filename);
     }
@@ -14,4 +15,6 @@ public class PlantDB extends DB {
         }
         return null;
     }
+
+     */
 }

@@ -8,14 +8,17 @@ import com.example.icnature.R;
 import java.io.IOException;
 
 public class DB {
+    /*
     private String filename;
     private Resources resources;
     public DB(String filename) {
         this.filename = filename;
     }
 
+
     public String[] readData() throws IOException {
-        String fileContent = FileReader.readTextFile(resources, R.raw.plant_data);
+
+        String fileContent = FileReader.readTextFile(resources, R.raw.);
 
         String[] lines = fileContent.split("\n");
 
@@ -28,5 +31,7 @@ public class DB {
         }
         return null;
     }
+
+     */
 }
 

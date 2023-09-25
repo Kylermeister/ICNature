@@ -6,38 +6,52 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF">
 
+
     <ImageView
         android:id="@+id/plantImage"
-        android:layout_width="308dp"
-        android:layout_height="320dp"
-        android:layout_marginTop="85dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
-        android:scaleType="centerCrop"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="16dp"
-        android:src="@mipmap/photo_1604085572504_a392ddf0d86a"
-        />
+        android:layout_width="500dp"
+        android:layout_height="350dp"
 
-    <TextView
-        android:id="@+id/plantTV"
-        android:layout_width="305dp"
-        android:layout_height="156dp"
-        android:layout_below="@id/plantImage"
-        android:text="plant data"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="80dp"
+        android:src="@mipmap/photo_1604085572504_a392ddf0d86a"
         tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="356dp" />
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/buttonMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plantImage"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="167dp"
+        android:text="More" />
+
+    <ListView
+        android:id="@+id/plantListView"
+        android:layout_width="353dp"
+        android:layout_height="302dp"
+        android:layout_below="@+id/buttonMore"
+        android:fontFamily="serif"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="27dp">
+
+    </ListView>
 
     <Button
         android:id="@+id/buttonBack"
-        android:layout_width="104dp"
-        android:layout_height="104dp"
-        android:background="#00FFFFFF"
-        android:text="←"
-        android:textColor="@color/black"
-        android:textSize="60sp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/home"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
 </RelativeLayout>

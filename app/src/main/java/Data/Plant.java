@@ -23,7 +23,7 @@ public class Plant extends Wildlife {
 
     public void updateTV (TextView mTextView){
 
-        mTextView.findViewById(R.id.plantTV);
+       // mTextView.findViewById(R.id.plantTV);
 
         mTextView.setText (this.toString());
     }

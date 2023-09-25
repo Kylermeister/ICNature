@@ -10,21 +10,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@mipmap/photo_1604085572504_a392ddf0d86a" />
+    />
 
-    <ImageView
-        android:id="@+id/camImage"
-        android:layout_width="428dp"
-        android:layout_height="733dp"
-        android:scaleType="centerCrop"
-        android:src="@mipmap/_removal_ai__ae1316fb_71fc_40e8_a4f6_314492e66c93_android_camera_ui_png_clipart" />
 
     <Button
         android:id="@+id/buttonBack"
-        android:layout_width="104dp"
-        android:layout_height="104dp"
-        android:background="#00FFFFFF"
-        android:text="←"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/home"
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -35,8 +33,20 @@
         android:layout_height="77dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"
-        android:alpha="0"
-        android:text="Button" />
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/camera"
+         />
+
+    <Button
+        android:id="@+id/camera_button"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        app:backgroundTint="@null"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="45dp"
+        android:text="Confirm" />
+
 
 </RelativeLayout>

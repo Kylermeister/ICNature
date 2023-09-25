@@ -3,6 +3,7 @@ package Data;
 import java.io.IOException;
 
 public class BirdDB extends DB {
+    /*
     public BirdDB(String filename) {
         super(filename);
     }
@@ -15,4 +16,6 @@ public class BirdDB extends DB {
         }
         return null;
     }
+
+     */
 }

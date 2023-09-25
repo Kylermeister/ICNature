@@ -1,49 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#4CAF50">
+    tools:context=".mapActivity">
 
-    <ImageView
-        android:id="@+id/mapImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="50dp"
-        android:contentDescription="@string/map_of_intaka"
-        android:rotation="90"
-        android:scaleType="centerInside"
-        android:scaleX="1.2"
-        android:scaleY="1.4"
-        android:src="@mipmap/intaka_island_map"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/buttonLocate"
-        android:layout_width="140dp"
-        android:layout_height="62dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="5dp"
-        android:backgroundTint="#FDFDFD"
-        android:foregroundTint="#FFFFFF"
-        android:textColor="@color/black"
-        android:text="@string/where_am_i" />
+    <WebView
+        android:id = "@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/buttonBack"
-        android:layout_width="104dp"
-        android:layout_height="104dp"
-        android:background="#00FFFFFF"
-        android:text="@string/back"
-        android:textColor="@color/black"
-        android:textSize="60sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="TextSizeCheck" />
-
-</RelativeLayout>
+    </WebView>
+</LinearLayout>

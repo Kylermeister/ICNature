@@ -9,6 +9,7 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) {
+        /*
         PlantDB plantDB = new PlantDB("plant_data.txt");
    //     BirdDB birdDB = new BirdDB("bird_data.txt");
 
@@ -30,10 +31,13 @@ public class Main {
                 System.out.println("Failed to read bird data.");
             }
 
- */
+
         } catch (IOException e) {
             System.out.println("An error occurred while reading data: " + e.getMessage());
         }
     }
-    
+    */
+
+
+    }
 }

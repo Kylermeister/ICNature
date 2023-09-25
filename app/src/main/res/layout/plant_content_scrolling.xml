@@ -15,15 +15,18 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:textAlignment="center"
-            android:text="plant name"/>
+            android:text="King Protea"/>
+
 
         <ImageView
-
+            android:id="@+id/imgKingProtea"
             android:layout_width="150dp"
+
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
             android:layout_height="150dp"
-            android:scaleType="fitCenter"
             android:layout_marginTop="10dp"
-            android:src="@mipmap/p1" />
+            android:src="@mipmap/proteacynaroides" />
 
         <TextView
 
@@ -31,14 +34,17 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:textAlignment="center"
-            android:text="plant name"/>
+            android:text="Hottentots Fig"/>
 
         <ImageView
+            android:id="@+id/imgHottentotsFig"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
 
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_marginTop="10dp"
-            android:src="@mipmap/p2"
+            android:src="@mipmap/hottentotsfig"
             />
 
         <TextView
@@ -46,14 +52,36 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:textAlignment="center"
-            android:text="plant name"/>
+            android:text="Tortoise Berry"/>
 
         <ImageView
-
+            android:id="@+id/imgTortoiseBerry"
             android:layout_width="150dp"
+
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
             android:layout_height="150dp"
             android:layout_marginTop="10dp"
-            android:src="@mipmap/p3"
+            android:src="@mipmap/tortoiseberry"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:text="Glossy Crowberry"/>
+
+        <ImageView
+            android:id="@+id/imgGlossyCrowberry"
+            android:layout_width="150dp"
+
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/glossycrowberry"
             />
 
         <TextView
@@ -61,29 +89,17 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:textAlignment="center"
-            android:text="plant name"/>
+            android:text="Wild Asparagus"/>
 
         <ImageView
-
+            android:id="@+id/imgWildAsparagus"
             android:layout_width="150dp"
+
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
             android:layout_height="150dp"
             android:layout_marginTop="10dp"
-            android:src="@mipmap/p4"
-            />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:textAlignment="center"
-            android:text="plant name"/>
-
-        <ImageView
-
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_marginTop="10dp"
-            android:src="@mipmap/photo_1604085572504_a392ddf0d86a"
+            android:src="@mipmap/wildasparagus"
             />
     </TableLayout>
 </ScrollView>

@@ -2,22 +2,30 @@ package com.example.icnature;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.widget.Button;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
+/*
+ * displays a webpage within the app that has an interactive map of Intaka Island
+ */
 public class mapActivity extends AppCompatActivity {
+    WebView webView;
 
+    /*
+     * display the map webpage
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
-        Button btnBack = (Button) findViewById(R.id.buttonBack);
-        btnBack.setOnClickListener(view -> openMain());
-    }
 
-    public void openMain(){
-        Intent intent = new Intent(this,MainActivity.class);
-        startActivity(intent);
+        // display the webpage
+        webView = (WebView) findViewById(R.id.webview);
+        webView.setWebViewClient(new WebViewClient());
+        webView.loadUrl("https://interacty.me/projects/db2d01ad7a440216");
+        WebSettings webSettings = webView.getSettings();
+        webSettings.setJavaScriptEnabled(true);
     }
 }

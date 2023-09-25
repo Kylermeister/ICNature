@@ -15,15 +15,17 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:textAlignment="center"
-            android:text="bird name"/>
+            android:text="Egyptian Goose"/>
 
         <ImageView
-
+            android:id="@+id/imgEgyptianGoose"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:scaleType="fitCenter"
+            android:background="@drawable/background_btn_correct"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
             android:layout_marginTop="10dp"
-            android:src="@mipmap/screenshot_2023_08_16_221257" />
+            android:src="@mipmap/egyptian_goose" />
 
         <TextView
 
@@ -31,14 +33,17 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:textAlignment="center"
-            android:text="bird name"/>
+            android:text="African Reed Warbler"/>
 
         <ImageView
-
+            android:id="@+id/imgAfricanReedWarbler"
             android:layout_width="150dp"
             android:layout_height="150dp"
+            android:background="@drawable/background_btn_correct"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
             android:layout_marginTop="10dp"
-            android:src="@mipmap/screenshot_2023_08_16_221340"
+            android:src="@mipmap/african_reed_warbler"
             />
 
         <TextView
@@ -46,14 +51,17 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:textAlignment="center"
-            android:text="bird name"/>
+            android:text="Rock Kestrel"/>
 
         <ImageView
-
+            android:id="@+id/imgRockKestrels"
             android:layout_width="150dp"
             android:layout_height="150dp"
+            android:background="@drawable/background_btn_correct"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
             android:layout_marginTop="10dp"
-            android:src="@mipmap/screenshot_2023_08_16_224440"
+            android:src="@mipmap/rock_kestrel"
             />
 
         <TextView
@@ -61,14 +69,17 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:textAlignment="center"
-            android:text="bird name"/>
+            android:text="Cape Turtle Dove"/>
 
         <ImageView
-
+            android:id="@+id/imgCapeTurtleDove"
             android:layout_width="150dp"
             android:layout_height="150dp"
+            android:background="@drawable/background_btn_correct"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
             android:layout_marginTop="10dp"
-            android:src="@mipmap/screenshot_2023_08_16_221400"
+            android:src="@mipmap/cape_turtle_dove"
             />
 
         <TextView
@@ -76,14 +87,17 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:textAlignment="center"
-            android:text="bird name"/>
+            android:text="Steppe eagle"/>
 
         <ImageView
-
+            android:id="@+id/imgSteppeEagle"
             android:layout_width="150dp"
             android:layout_height="150dp"
+            android:background="@drawable/background_btn_correct"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
             android:layout_marginTop="10dp"
-            android:src="@mipmap/screenshot_2023_08_16_224941"
+            android:src="@mipmap/steppe_eagle"
             />
     </TableLayout>
 </ScrollView>
