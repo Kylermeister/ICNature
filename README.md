@@ -7,7 +7,7 @@ but in the practical uses of renewable energy and Hydroponics. Intaka is open to
   The purpose of this application is to provide a handy companion application to the visitors that DO visit there.
   
 ## Application Features
-This Android application provides.
+*This Android application provides.
   *A Camera that sends an image to an API hosted by [Pl@ntNet](https://my.plantnet.org/) to return the name and information of the plant.
   *A Map that also displays popups with useful information regarding Intaka.
   *Lists of Birds and Plants to scroll through and view more information on
