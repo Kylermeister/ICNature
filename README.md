@@ -1,4 +1,4 @@
-# ICNatura CSC3003S Capstone Project
+# ICNature CSC3003S Capstone Project
 ## Introduction
 Intaka Island Nature Reserve is a wetland conservation reserve based in Century City.
 It's home to over 100 bird and plant species and specializes in not only the education of wetlands and biodiversity,
